@@ -63,6 +63,7 @@ const BTH = {
     0x02: { n: 'temperature', t: int16, f: 0.01, u: 'tC' },
     0x45: { n: 'temperature', t: int16, f: 0.1, u: 'tC' },
     0x03: { n: 'humidity', t: uint16, f: 0.01, u: '%' },
+    0x2e: { n: 'humidity', t: uint8, u: '%' },
     0x05: { n: 'illuminance', t: uint24, f: 0.01 },
     0x1a: { n: 'door', t: uint8 },
     0x20: { n: 'moisture', t: uint8 },
